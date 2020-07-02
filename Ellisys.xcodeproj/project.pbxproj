@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251E831724AE42CC00FE83D7 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */; };
+		255FB6B024AD9B7300C81C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */; };
+		255FB6B224AD9B7300C81C10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */; };
+		255FB6B424AD9B7300C81C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6B324AD9B7300C81C10 /* ViewController.swift */; };
+		255FB6B724AD9B7300C81C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255FB6B524AD9B7300C81C10 /* Main.storyboard */; };
+		255FB6B924AD9B7900C81C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255FB6B824AD9B7900C81C10 /* Assets.xcassets */; };
+		255FB6BC24AD9B7900C81C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255FB6BA24AD9B7900C81C10 /* LaunchScreen.storyboard */; };
+		255FB6C724AD9B7900C81C10 /* EllisysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6C624AD9B7900C81C10 /* EllisysTests.swift */; };
+		255FB6D224AD9B7900C81C10 /* EllisysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6D124AD9B7900C81C10 /* EllisysUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255FB6C324AD9B7900C81C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255FB6A424AD9B7300C81C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255FB6AB24AD9B7300C81C10;
+			remoteInfo = Ellisys;
+		};
+		255FB6CE24AD9B7900C81C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255FB6A424AD9B7300C81C10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255FB6AB24AD9B7300C81C10;
+			remoteInfo = Ellisys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		255FB6AC24AD9B7300C81C10 /* Ellisys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ellisys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		255FB6B324AD9B7300C81C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		255FB6B624AD9B7300C81C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255FB6B824AD9B7900C81C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		255FB6BB24AD9B7900C81C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		255FB6BD24AD9B7900C81C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255FB6C224AD9B7900C81C10 /* EllisysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllisysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255FB6C624AD9B7900C81C10 /* EllisysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllisysTests.swift; sourceTree = "<group>"; };
+		255FB6C824AD9B7900C81C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255FB6CD24AD9B7900C81C10 /* EllisysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllisysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255FB6D124AD9B7900C81C10 /* EllisysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllisysUITests.swift; sourceTree = "<group>"; };
+		255FB6D324AD9B7900C81C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255FB6A924AD9B7300C81C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6BF24AD9B7900C81C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6CA24AD9B7900C81C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255FB6A324AD9B7300C81C10 = {
+			isa = PBXGroup;
+			children = (
+				255FB6AE24AD9B7300C81C10 /* Ellisys */,
+				255FB6C524AD9B7900C81C10 /* EllisysTests */,
+				255FB6D024AD9B7900C81C10 /* EllisysUITests */,
+				255FB6AD24AD9B7300C81C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255FB6AD24AD9B7300C81C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6AC24AD9B7300C81C10 /* Ellisys.app */,
+				255FB6C224AD9B7900C81C10 /* EllisysTests.xctest */,
+				255FB6CD24AD9B7900C81C10 /* EllisysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255FB6AE24AD9B7300C81C10 /* Ellisys */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */,
+				255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */,
+				255FB6B324AD9B7300C81C10 /* ViewController.swift */,
+				255FB6B524AD9B7300C81C10 /* Main.storyboard */,
+				251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */,
+				255FB6B824AD9B7900C81C10 /* Assets.xcassets */,
+				255FB6BA24AD9B7900C81C10 /* LaunchScreen.storyboard */,
+				255FB6BD24AD9B7900C81C10 /* Info.plist */,
+			);
+			path = Ellisys;
+			sourceTree = "<group>";
+		};
+		255FB6C524AD9B7900C81C10 /* EllisysTests */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6C624AD9B7900C81C10 /* EllisysTests.swift */,
+				255FB6C824AD9B7900C81C10 /* Info.plist */,
+			);
+			path = EllisysTests;
+			sourceTree = "<group>";
+		};
+		255FB6D024AD9B7900C81C10 /* EllisysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6D124AD9B7900C81C10 /* EllisysUITests.swift */,
+				255FB6D324AD9B7900C81C10 /* Info.plist */,
+			);
+			path = EllisysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255FB6AB24AD9B7300C81C10 /* Ellisys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255FB6D624AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "Ellisys" */;
+			buildPhases = (
+				255FB6A824AD9B7300C81C10 /* Sources */,
+				255FB6A924AD9B7300C81C10 /* Frameworks */,
+				255FB6AA24AD9B7300C81C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ellisys;
+			productName = Ellisys;
+			productReference = 255FB6AC24AD9B7300C81C10 /* Ellisys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255FB6C124AD9B7900C81C10 /* EllisysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255FB6D924AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysTests" */;
+			buildPhases = (
+				255FB6BE24AD9B7900C81C10 /* Sources */,
+				255FB6BF24AD9B7900C81C10 /* Frameworks */,
+				255FB6C024AD9B7900C81C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255FB6C424AD9B7900C81C10 /* PBXTargetDependency */,
+			);
+			name = EllisysTests;
+			productName = EllisysTests;
+			productReference = 255FB6C224AD9B7900C81C10 /* EllisysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		255FB6CC24AD9B7900C81C10 /* EllisysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255FB6DC24AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysUITests" */;
+			buildPhases = (
+				255FB6C924AD9B7900C81C10 /* Sources */,
+				255FB6CA24AD9B7900C81C10 /* Frameworks */,
+				255FB6CB24AD9B7900C81C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255FB6CF24AD9B7900C81C10 /* PBXTargetDependency */,
+			);
+			name = EllisysUITests;
+			productName = EllisysUITests;
+			productReference = 255FB6CD24AD9B7900C81C10 /* EllisysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255FB6A424AD9B7300C81C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tsahai Clahar";
+				TargetAttributes = {
+					255FB6AB24AD9B7300C81C10 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					255FB6C124AD9B7900C81C10 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 255FB6AB24AD9B7300C81C10;
+					};
+					255FB6CC24AD9B7900C81C10 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 255FB6AB24AD9B7300C81C10;
+					};
+				};
+			};
+			buildConfigurationList = 255FB6A724AD9B7300C81C10 /* Build configuration list for PBXProject "Ellisys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255FB6A324AD9B7300C81C10;
+			productRefGroup = 255FB6AD24AD9B7300C81C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255FB6AB24AD9B7300C81C10 /* Ellisys */,
+				255FB6C124AD9B7900C81C10 /* EllisysTests */,
+				255FB6CC24AD9B7900C81C10 /* EllisysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255FB6AA24AD9B7300C81C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255FB6BC24AD9B7900C81C10 /* LaunchScreen.storyboard in Resources */,
+				255FB6B924AD9B7900C81C10 /* Assets.xcassets in Resources */,
+				255FB6B724AD9B7300C81C10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6C024AD9B7900C81C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6CB24AD9B7900C81C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255FB6A824AD9B7300C81C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255FB6B424AD9B7300C81C10 /* ViewController.swift in Sources */,
+				255FB6B024AD9B7300C81C10 /* AppDelegate.swift in Sources */,
+				251E831724AE42CC00FE83D7 /* LoginScreenViewController.swift in Sources */,
+				255FB6B224AD9B7300C81C10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6BE24AD9B7900C81C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255FB6C724AD9B7900C81C10 /* EllisysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255FB6C924AD9B7900C81C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255FB6D224AD9B7900C81C10 /* EllisysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255FB6C424AD9B7900C81C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255FB6AB24AD9B7300C81C10 /* Ellisys */;
+			targetProxy = 255FB6C324AD9B7900C81C10 /* PBXContainerItemProxy */;
+		};
+		255FB6CF24AD9B7900C81C10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255FB6AB24AD9B7300C81C10 /* Ellisys */;
+			targetProxy = 255FB6CE24AD9B7900C81C10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255FB6B524AD9B7300C81C10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255FB6B624AD9B7300C81C10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255FB6BA24AD9B7900C81C10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255FB6BB24AD9B7900C81C10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255FB6D424AD9B7900C81C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		255FB6D524AD9B7900C81C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255FB6D724AD9B7900C81C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ellisys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.Ellisys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255FB6D824AD9B7900C81C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ellisys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.Ellisys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		255FB6DA24AD9B7900C81C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EllisysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.EllisysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ellisys.app/Ellisys";
+			};
+			name = Debug;
+		};
+		255FB6DB24AD9B7900C81C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EllisysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.EllisysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ellisys.app/Ellisys";
+			};
+			name = Release;
+		};
+		255FB6DD24AD9B7900C81C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EllisysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.EllisysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ellisys;
+			};
+			name = Debug;
+		};
+		255FB6DE24AD9B7900C81C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EllisysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TsahaiClahar.EllisysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ellisys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255FB6A724AD9B7300C81C10 /* Build configuration list for PBXProject "Ellisys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255FB6D424AD9B7900C81C10 /* Debug */,
+				255FB6D524AD9B7900C81C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255FB6D624AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "Ellisys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255FB6D724AD9B7900C81C10 /* Debug */,
+				255FB6D824AD9B7900C81C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255FB6D924AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255FB6DA24AD9B7900C81C10 /* Debug */,
+				255FB6DB24AD9B7900C81C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255FB6DC24AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255FB6DD24AD9B7900C81C10 /* Debug */,
+				255FB6DE24AD9B7900C81C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255FB6A424AD9B7300C81C10 /* Project object */;
+}
