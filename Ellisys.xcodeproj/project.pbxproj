@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251E831724AE42CC00FE83D7 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */; };
+		251E831724AE42CC00FE83D7 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E831624AE42CC00FE83D7 /* HomeScreenViewController.swift */; };
+		251E831F24AE8A3700FE83D7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 251E831E24AE8A3700FE83D7 /* GoogleService-Info.plist */; };
+		251E832124AEDC5D00FE83D7 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E832024AEDC5D00FE83D7 /* RegistrationViewController.swift */; };
+		251E832624BD666800FE83D7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251E832524BD666800FE83D7 /* UserModel.swift */; };
+		253B7A3924BEC15D00969F66 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253B7A3824BEC15D00969F66 /* TableViewCell.swift */; };
 		255FB6B024AD9B7300C81C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */; };
 		255FB6B224AD9B7300C81C10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */; };
 		255FB6B424AD9B7300C81C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6B324AD9B7300C81C10 /* ViewController.swift */; };
@@ -16,6 +20,13 @@
 		255FB6BC24AD9B7900C81C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255FB6BA24AD9B7900C81C10 /* LaunchScreen.storyboard */; };
 		255FB6C724AD9B7900C81C10 /* EllisysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6C624AD9B7900C81C10 /* EllisysTests.swift */; };
 		255FB6D224AD9B7900C81C10 /* EllisysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FB6D124AD9B7900C81C10 /* EllisysUITests.swift */; };
+		25B23FA824CEA4CB0018BD20 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B23FA724CEA4CB0018BD20 /* ChatViewController.swift */; };
+		25B23FAA24D281F50018BD20 /* ChatSenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B23FA924D281F50018BD20 /* ChatSenderCell.swift */; };
+		25B23FAC24D290EF0018BD20 /* ChatReceiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B23FAB24D290EF0018BD20 /* ChatReceiveCell.swift */; };
+		25B23FB024D29A190018BD20 /* MsgModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B23FAF24D29A190018BD20 /* MsgModel.swift */; };
+		765D098B305FB02F555774DC /* Pods_Ellisys_EllisysUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E43FFE875FB755AC5E8ABC /* Pods_Ellisys_EllisysUITests.framework */; };
+		B9BED7DDF6B7A32969B3682F /* Pods_EllisysTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF64755DE9061068CD732F0 /* Pods_EllisysTests.framework */; };
+		E2D61EB3E52284E952CDC4BB /* Pods_Ellisys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60545A29AA1F72E6EC4CB6CB /* Pods_Ellisys.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		251E831624AE42CC00FE83D7 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		251E831E24AE8A3700FE83D7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		251E832024AEDC5D00FE83D7 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		251E832524BD666800FE83D7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		253B7A3824BEC15D00969F66 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = Ellisys/Controller/TableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		255FB6AC24AD9B7300C81C10 /* Ellisys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ellisys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,19 @@
 		255FB6CD24AD9B7900C81C10 /* EllisysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EllisysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		255FB6D124AD9B7900C81C10 /* EllisysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllisysUITests.swift; sourceTree = "<group>"; };
 		255FB6D324AD9B7900C81C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B23FA724CEA4CB0018BD20 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		25B23FA924D281F50018BD20 /* ChatSenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSenderCell.swift; sourceTree = "<group>"; };
+		25B23FAB24D290EF0018BD20 /* ChatReceiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatReceiveCell.swift; sourceTree = "<group>"; };
+		25B23FAF24D29A190018BD20 /* MsgModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgModel.swift; sourceTree = "<group>"; };
+		5F331ECC68FBAEE35A25606E /* Pods-EllisysTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisysTests.release.xcconfig"; path = "Target Support Files/Pods-EllisysTests/Pods-EllisysTests.release.xcconfig"; sourceTree = "<group>"; };
+		60545A29AA1F72E6EC4CB6CB /* Pods_Ellisys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ellisys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E43FFE875FB755AC5E8ABC /* Pods_Ellisys_EllisysUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ellisys_EllisysUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CF2C9CB0DDFAAA7A4AD43D /* Pods-Ellisys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellisys.debug.xcconfig"; path = "Target Support Files/Pods-Ellisys/Pods-Ellisys.debug.xcconfig"; sourceTree = "<group>"; };
+		869B9C5E4148BBE7AC2E00C0 /* Pods-EllisysTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EllisysTests.debug.xcconfig"; path = "Target Support Files/Pods-EllisysTests/Pods-EllisysTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF64755DE9061068CD732F0 /* Pods_EllisysTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EllisysTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF86235528C61571A4E51DA /* Pods-Ellisys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellisys.release.xcconfig"; path = "Target Support Files/Pods-Ellisys/Pods-Ellisys.release.xcconfig"; sourceTree = "<group>"; };
+		976282B77F7429A0B8E1FCF5 /* Pods-Ellisys-EllisysUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellisys-EllisysUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ellisys-EllisysUITests/Pods-Ellisys-EllisysUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2F7A0EC254E938A4B7612FA /* Pods-Ellisys-EllisysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ellisys-EllisysUITests.release.xcconfig"; path = "Target Support Files/Pods-Ellisys-EllisysUITests/Pods-Ellisys-EllisysUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D61EB3E52284E952CDC4BB /* Pods_Ellisys.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9BED7DDF6B7A32969B3682F /* Pods_EllisysTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765D098B305FB02F555774DC /* Pods_Ellisys_EllisysUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251E832224BCEE2C00FE83D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6B324AD9B7300C81C10 /* ViewController.swift */,
+				251E832024AEDC5D00FE83D7 /* RegistrationViewController.swift */,
+				251E831624AE42CC00FE83D7 /* HomeScreenViewController.swift */,
+				25B23FA924D281F50018BD20 /* ChatSenderCell.swift */,
+				25B23FAB24D290EF0018BD20 /* ChatReceiveCell.swift */,
+				25B23FA724CEA4CB0018BD20 /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		251E832324BCEE9400FE83D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				255FB6B524AD9B7300C81C10 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		251E832424BCEEA500FE83D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				253B7A3824BEC15D00969F66 /* TableViewCell.swift */,
+				251E832524BD666800FE83D7 /* UserModel.swift */,
+				25B23FAF24D29A190018BD20 /* MsgModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		255FB6A324AD9B7300C81C10 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				255FB6C524AD9B7900C81C10 /* EllisysTests */,
 				255FB6D024AD9B7900C81C10 /* EllisysUITests */,
 				255FB6AD24AD9B7300C81C10 /* Products */,
+				5D4E0EF1F98D49EB2812838E /* Pods */,
+				D9B57C36D483A47D8AFB784A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +167,13 @@
 			children = (
 				255FB6AF24AD9B7300C81C10 /* AppDelegate.swift */,
 				255FB6B124AD9B7300C81C10 /* SceneDelegate.swift */,
-				255FB6B324AD9B7300C81C10 /* ViewController.swift */,
-				255FB6B524AD9B7300C81C10 /* Main.storyboard */,
-				251E831624AE42CC00FE83D7 /* LoginScreenViewController.swift */,
+				251E832424BCEEA500FE83D7 /* Model */,
+				251E832324BCEE9400FE83D7 /* View */,
+				251E832224BCEE2C00FE83D7 /* Controller */,
 				255FB6B824AD9B7900C81C10 /* Assets.xcassets */,
 				255FB6BA24AD9B7900C81C10 /* LaunchScreen.storyboard */,
 				255FB6BD24AD9B7900C81C10 /* Info.plist */,
+				251E831E24AE8A3700FE83D7 /* GoogleService-Info.plist */,
 			);
 			path = Ellisys;
 			sourceTree = "<group>";
@@ -131,6 +196,29 @@
 			path = EllisysUITests;
 			sourceTree = "<group>";
 		};
+		5D4E0EF1F98D49EB2812838E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70CF2C9CB0DDFAAA7A4AD43D /* Pods-Ellisys.debug.xcconfig */,
+				8DF86235528C61571A4E51DA /* Pods-Ellisys.release.xcconfig */,
+				976282B77F7429A0B8E1FCF5 /* Pods-Ellisys-EllisysUITests.debug.xcconfig */,
+				A2F7A0EC254E938A4B7612FA /* Pods-Ellisys-EllisysUITests.release.xcconfig */,
+				869B9C5E4148BBE7AC2E00C0 /* Pods-EllisysTests.debug.xcconfig */,
+				5F331ECC68FBAEE35A25606E /* Pods-EllisysTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9B57C36D483A47D8AFB784A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60545A29AA1F72E6EC4CB6CB /* Pods_Ellisys.framework */,
+				63E43FFE875FB755AC5E8ABC /* Pods_Ellisys_EllisysUITests.framework */,
+				8CF64755DE9061068CD732F0 /* Pods_EllisysTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 255FB6D624AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "Ellisys" */;
 			buildPhases = (
+				252271BF413BE33A00918140 /* [CP] Check Pods Manifest.lock */,
 				255FB6A824AD9B7300C81C10 /* Sources */,
 				255FB6A924AD9B7300C81C10 /* Frameworks */,
 				255FB6AA24AD9B7300C81C10 /* Resources */,
+				C2E4F1CD62E0429DC67EC73B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 255FB6D924AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysTests" */;
 			buildPhases = (
+				7AED42C3BEAE3C5DF44299CE /* [CP] Check Pods Manifest.lock */,
 				255FB6BE24AD9B7900C81C10 /* Sources */,
 				255FB6BF24AD9B7900C81C10 /* Frameworks */,
 				255FB6C024AD9B7900C81C10 /* Resources */,
@@ -173,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 255FB6DC24AD9B7900C81C10 /* Build configuration list for PBXNativeTarget "EllisysUITests" */;
 			buildPhases = (
+				102FF5FCAFFB5BFAEEBC3F75 /* [CP] Check Pods Manifest.lock */,
 				255FB6C924AD9B7900C81C10 /* Sources */,
 				255FB6CA24AD9B7900C81C10 /* Frameworks */,
 				255FB6CB24AD9B7900C81C10 /* Resources */,
+				81790CEB96BA7B2C72706EE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				255FB6BC24AD9B7900C81C10 /* LaunchScreen.storyboard in Resources */,
+				251E831F24AE8A3700FE83D7 /* GoogleService-Info.plist in Resources */,
 				255FB6B924AD9B7900C81C10 /* Assets.xcassets in Resources */,
 				255FB6B724AD9B7300C81C10 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +351,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		102FF5FCAFFB5BFAEEBC3F75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ellisys-EllisysUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		252271BF413BE33A00918140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ellisys-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AED42C3BEAE3C5DF44299CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EllisysTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81790CEB96BA7B2C72706EE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ellisys-EllisysUITests/Pods-Ellisys-EllisysUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ellisys-EllisysUITests/Pods-Ellisys-EllisysUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ellisys-EllisysUITests/Pods-Ellisys-EllisysUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E4F1CD62E0429DC67EC73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ellisys/Pods-Ellisys-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ellisys/Pods-Ellisys-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ellisys/Pods-Ellisys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		255FB6A824AD9B7300C81C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,8 +461,15 @@
 			files = (
 				255FB6B424AD9B7300C81C10 /* ViewController.swift in Sources */,
 				255FB6B024AD9B7300C81C10 /* AppDelegate.swift in Sources */,
-				251E831724AE42CC00FE83D7 /* LoginScreenViewController.swift in Sources */,
+				25B23FB024D29A190018BD20 /* MsgModel.swift in Sources */,
+				25B23FA824CEA4CB0018BD20 /* ChatViewController.swift in Sources */,
+				25B23FAC24D290EF0018BD20 /* ChatReceiveCell.swift in Sources */,
+				251E831724AE42CC00FE83D7 /* HomeScreenViewController.swift in Sources */,
 				255FB6B224AD9B7300C81C10 /* SceneDelegate.swift in Sources */,
+				251E832624BD666800FE83D7 /* UserModel.swift in Sources */,
+				253B7A3924BEC15D00969F66 /* TableViewCell.swift in Sources */,
+				251E832124AEDC5D00FE83D7 /* RegistrationViewController.swift in Sources */,
+				25B23FAA24D281F50018BD20 /* ChatSenderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +640,7 @@
 		};
 		255FB6D724AD9B7900C81C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CF2C9CB0DDFAAA7A4AD43D /* Pods-Ellisys.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +658,7 @@
 		};
 		255FB6D824AD9B7900C81C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF86235528C61571A4E51DA /* Pods-Ellisys.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +676,7 @@
 		};
 		255FB6DA24AD9B7900C81C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869B9C5E4148BBE7AC2E00C0 /* Pods-EllisysTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +698,7 @@
 		};
 		255FB6DB24AD9B7900C81C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F331ECC68FBAEE35A25606E /* Pods-EllisysTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +720,7 @@
 		};
 		255FB6DD24AD9B7900C81C10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976282B77F7429A0B8E1FCF5 /* Pods-Ellisys-EllisysUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +740,7 @@
 		};
 		255FB6DE24AD9B7900C81C10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F7A0EC254E938A4B7612FA /* Pods-Ellisys-EllisysUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
