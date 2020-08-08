@@ -19,6 +19,7 @@ target 'Ellisys' do
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
 pod 'Firebase/Storage'
-
-
+pod 'MessageKit'
+pod 'MessageInputBar'
 end
+

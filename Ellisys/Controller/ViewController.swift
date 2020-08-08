@@ -29,7 +29,10 @@ class ViewController: UIViewController {
         loginBtn.layer.shadowOffset = .zero
         loginBtn.layer.shadowRadius = 4
         
+        
         errorLabel.alpha = 0
+        
+        overrideUserInterfaceStyle = .light
         
         // call the 'keyboardWillShow' function when the view controller receive the notification that a keyboard is going to be shown
         NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)

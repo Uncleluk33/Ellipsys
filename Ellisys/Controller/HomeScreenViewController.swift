@@ -37,7 +37,8 @@ class HomeScreenViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        
+        overrideUserInterfaceStyle = .light
+
         
         //get current user info
         if Auth.auth().currentUser != nil {
@@ -132,15 +133,18 @@ extension HomeScreenViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //  print("\(users[indexPath.row].UID) + \(Auth.auth().currentUser!.uid)")
         
-        let db = Firestore.firestore()
-        let uuid = UUID().uuidString
-        
-        db.collection(uuid).addDocument(data: ["ChatID" : uuid])
-        
+
         self.userAtIndex = users[indexPath.row].UID
         self.userAtIndexName = users[indexPath.row].first
-        performSegue(withIdentifier: "ChatScreen", sender: Any?.self)
         
+        //performSegue(withIdentifier: "ChatScreen", sender: Any?.self)
+        
+        let vc = ChatViewController()
+        vc.title = "Chat"
+        vc.userID1 = Auth.auth().currentUser!.uid
+        vc.userID2 = userAtIndex
+        vc.userID2Name = userAtIndexName
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
